@@ -7,7 +7,7 @@ function Foreground() {
     const ref = useRef(null);
     const data = [
         {
-            desc: "Passsing via Props oye",
+            desc: "Go buy some veggies",
             filesize: ".9mb",
             close: true,
             tag: {
@@ -16,8 +16,9 @@ function Foreground() {
                 tagColor: 'green'
             }
         },
+
         {
-            desc: "Passsing via Props oye",
+            desc: "Do the laundary",
             filesize: ".9mb",
             close: true,
             tag: {
@@ -25,25 +26,18 @@ function Foreground() {
                 tagTitle: 'Download Now',
                 tagColor: 'blue'
             }
-        },
-        {
-            desc: "Passsing via Props oye",
-            filesize: ".9mb",
-            close: true,
-            tag: {
-                isOpen: false,
-                tagTitle: 'Download Now',
-                tagColor: 'green'
-            }
-        },
+        }
 
     ]
     return (
-        <div ref={ref} className='fixed top-0 left-0 z-[3] w-full h-full flex gap-10 flex-wrap p-5'>
-            {data.map((item, index) =>(
+        <>        <div ref={ref} className='fixed top-0 left-0 z-[3] w-full h-full flex gap-10 flex-wrap p-5'>
+            {data.map((item, index) => (
                 <Card data={item} reference={ref} />
             ))}
         </div>
+            <footer className='fixed left-5 bottom-5 text-white '>Note: All the notes card are draggable !</footer>
+        </>
+
     )
 }
 export default Foreground;
