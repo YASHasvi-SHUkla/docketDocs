@@ -1,6 +1,6 @@
 # Docket Docs
 
-This is a simple Todo/Notes application built with Vite, React, Tailwind CSS, and Framer Motion. The application allows users to create, delete, and update todo items or notes, and the cards are draggable for easy organization. https://vercel.com/yashasvishuklas-projects/docket-docs
+This is a simple Todo/Notes application built with Vite, React, Tailwind CSS, and Framer Motion. The application allows users to create, delete, and update todo items or notes, and the cards are draggable for easy organization. [https://vercel.com/yashasvishuklas-projects/docket-docs](https://docket-docs.vercel.app/)
 
 ## Features
 
